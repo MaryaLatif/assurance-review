@@ -1,0 +1,11 @@
+
+# Modèle trop lourd pour GitHub
+distilbert_review_model/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store
