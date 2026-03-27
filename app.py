@@ -23,9 +23,9 @@ with st.sidebar:
         "Navigation",
         [
             "🏠 Accueil",
-            "🔮 Prediction",
-            "📊 Summary",
-            "💡 Explanation",
+            "🔮 Prédiction",
+            "📊 Résumé",
+            "💡 Explication",
             "🔍 Information Retrieval"
         ]
     )
@@ -150,7 +150,7 @@ Retrouve les avis les plus similaires à une requête via cosine similarity
 # ══════════════════════════════════════════════
 # PAGE 1 — PREDICTION
 # ══════════════════════════════════════════════
-elif page == "🔮 Prediction":
+elif page == "🔮 Prédiction":
     st.title("🔮 Prédiction de note")
     st.caption("Modèle DistilBERT fine-tuné — accuracy 51.67% sur le jeu de test")
     st.markdown("---")
@@ -205,7 +205,7 @@ elif page == "🔮 Prediction":
 # ══════════════════════════════════════════════
 # PAGE 2 — SUMMARY
 # ══════════════════════════════════════════════
-elif page == "📊 Summary":
+elif page == "📊 Résumé":
     st.title("📊 Résumé du dataset")
     st.markdown("---")
 
@@ -260,7 +260,7 @@ elif page == "📊 Summary":
 # ══════════════════════════════════════════════
 # PAGE 3 — EXPLANATION
 # ══════════════════════════════════════════════
-elif page == "💡 Explanation":
+elif page == "💡 Explication":
     st.title("💡 Explication de la prédiction")
     st.caption("Mots les plus influents + probabilités détaillées par classe")
     st.markdown("---")
